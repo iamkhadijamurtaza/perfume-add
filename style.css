@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  background-color: hsl(30, 38%, 92%);
+  font-family: "Hanken Grotesk", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Outfit", sans-serif;
+}
+body {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 90px;
+}
+img {
+  height: 500px;
+}
+.container {
+  height: 500px;
+  width: 335px;
+  background-color: white;
+}
+h1,
+p {
+  background-color: white;
+  padding-left: 20px;
+}
+.container-1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+.price {
+  width: 70px;
+  margin-top: 55px;
+  background-color: white;
+  margin-right: 50px;
+}
+
+button {
+  background-image: url(./images/icon-cart.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  height: 45px;
+  width: 220px;
+  border-radius: 8px;
+  border-color: hsl(158, 36%, 37%);
+  border: none;
+  margin-left: 35px;
+}
+button:hover {
+  background-color: hsl(158, 52%, 11%);
+}
